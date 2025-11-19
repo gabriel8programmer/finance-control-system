@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // ==== Módulos e Ambiente ====
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "jsx": "react-jsx",
+    "types": ["node"],
+
+    // ==== Saída (ativar quando gerar build) ====
+    "rootDir": "src",
+    "outDir": "dist",
+
+    // ==== Emissão ====
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // ==== Type Checking ====
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    // ==== Qualidade de Código ====
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+
+    // ==== Detecção de módulos ====
+    "moduleDetection": "force"
+  },
+
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
